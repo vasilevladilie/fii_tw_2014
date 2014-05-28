@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./drool_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="top">
+        <h:form>
+            <p:outputPanel deferred="true">        
+                <header>
+                    <h3 class="app_name">
+                            <ul>
+                                <li>
+                                Drool
+                                </li>
+                                <li>
+                                    or a digital currency conversion and visualization tool
+                                </li>
+                            </ul>
+                            <p:effect type="bounce" event="click"/>
+                       
+                    </h3>
+               </header>
+           </p:outputPanel>
+       </h:form>
+    </ui:define>
+
+    <ui:define name="content">
+        <div class="complete_registration">
+           <h:form id="registration">
+		<p:panelGrid columns="2"  >
+                <f:facet name="header">
+                    <p class="form_caption">
+                    Complete registration
+                    </p>
+                </f:facet>  
+                <h:outputLabel for="username" value="Username" />  
+                <p:inputText id="username" value="#{accountBean.username}" />
+
+                <h:outputLabel for="password" value="Password" />  
+                <p:inputText id="password" value="#{accountBean.password}" />
+
+                <h:outputLabel for="email" value="Email" />  
+                <p:inputText id="email" value="#{accountBean.email}" />
+
+                <h:outputLabel for="phone_number" value="Phone number" />  
+                <p:inputText id="phone_number" value="#{accountBean.phoneNumber}" />
+
+                <h:outputLabel for="address" value="Address" />  
+                <p:inputText id="address" value="#{accountBean.address}" />
+                
+                <p:commandButton  action="#{accountBean.completeRegistration}"
+                                  value="Complete" icon="ui-icon" style="margin-left:0"/>  		
+                <h:messages />
+                        
+		</p:panelGrid> 
+            </h:form>
+        </div>
+    </ui:define>
+
+    <ui:define name="bottom">                
+        <ul class="copyright">
+            <li>
+            Distributed through GitHub under open-source license
+            </li>
+            <li>
+            Author: Vasile-Vlad Ilie
+            </li>
+            <li>
+            Project name: Drool &copy;
+            </li>
+         </ul>
+    </ui:define>
+
+</ui:composition>

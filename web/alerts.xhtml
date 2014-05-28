@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="./drool_template.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui">
+
+    <ui:define name="top">
+       <h:form>
+            <p:outputPanel deferred="true">        
+                <header>
+                    <h3 class="app_name">
+                        <ul>
+                            <li>
+                            Drool
+                            </li>
+                            <li>
+                                or a digital currency conversion and visualization tool
+                            </li>
+                        </ul>
+                    </h3>
+               </header>
+           </p:outputPanel>
+       </h:form>
+    </ui:define>
+
+    <ui:define name="content">
+        <nav>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li class="current_page">
+                    Alerts
+                </li>
+                <li>
+                    Profile
+                </li>
+                <li>
+                    About
+                </li>
+                <li>
+                    Logout
+                </li>
+            </ul>        
+        </nav>
+        <section class="alerts_calendar">
+            
+        </section>
+        <aside>
+            <video>
+            </video>
+        </aside>
+        
+    </ui:define>
+
+    <ui:define name="bottom">
+                    <ul class="copyright">
+                <li>
+                Distributed through GitHub under open-source license
+                </li>
+                <li>
+                Author: Vasile-Vlad Ilie
+                </li>
+                <li>
+                Project name: Drool &copy;
+                </li>
+             </ul>
+         
+    </ui:define>
+
+</ui:composition>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Faces Configuration Only" version="2">
+    <Scope Scope="Faces Configuration Only">
+        <Node id="&#10;                /complete_registration.xhtml&#10;            " x="140" y="187" zoom="true"/>
+        <Node id="&#10;                /logout_page.xhtml&#10;            " x="633" y="433" zoom="true"/>
+        <Node id="&#10;                /homepage.xhtml&#10;            " x="485" y="105" zoom="true"/>
+        <Node id="homepage.xhtml" x="52" y="381" zoom="true"/>
+        <Node id="*" x="400" y="150" zoom="true"/>
+        <Node id="&#10;                /user_profile.xhtml&#10;            " x="267" y="435" zoom="true"/>
+        <Node id="&#10;                /alerts.xhtml&#10;            " x="697" y="163" zoom="true"/>
+        <Node id="&#10;                /currencies.xhtml&#10;            " x="21" y="85" zoom="true"/>
+        <Node id="complete_registration.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="currencies.xhtml" x="523" y="278" zoom="true"/>
+    </Scope>
+    <Scope Scope="Project">
+        <Node id="&#10;                /logout_page.xhtml&#10;            " x="400" y="450" zoom="true"/>
+        <Node id="&#10;                /registration.xhtml&#10;            " x="400" y="300" zoom="true"/>
+        <Node id="&#10;                /homepage.xhtml&#10;            " x="401" y="151" zoom="true"/>
+        <Node id="                 /user_profile.xhtml             " x="150" y="450" zoom="true"/>
+        <Node id="homepage.xhtml" x="153" y="303" zoom="true"/>
+        <Node id="drool_template.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="&#10;                /alerts.xhtml&#10;            " x="650" y="150" zoom="true"/>
+        <Node id="&#10;                /currencies.xhtml&#10;            " x="900" y="150" zoom="true"/>
+        <Node id="currencies.xhtml" x="650" y="300" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
